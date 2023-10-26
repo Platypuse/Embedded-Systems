@@ -18,6 +18,8 @@ int main()
     while (true) {
         //Red
         redLED = 1;
+        yellowLED = 1;
+        greenLED = 1;
         wait_us(2000000);
 
         //Red+Yellow

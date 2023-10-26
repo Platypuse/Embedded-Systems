@@ -12,6 +12,8 @@ LCD_16X2_DISPLAY lcd;
 
 int main()
 {
+    while(true)
+    {
     red = 1;
     lcd.puts("RED");
     wait_us(10000000);
@@ -37,4 +39,5 @@ int main()
 
     lcd.cls();
     lcd.puts("TASK-104");
+    }
 }
