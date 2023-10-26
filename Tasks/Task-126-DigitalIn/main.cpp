@@ -2,7 +2,7 @@
 
 DigitalIn ButtonA(PG_0); //Button A
 DigitalIn ButtonB(PG_1); //Button B 
-DigitalOut YellowLED(PC_3); //yellow Traffic 1
+DigitalOut YellowLED(PC_6); //yellow Traffic 1
 
 // main() runs in its own thread in the OS
 int main()
